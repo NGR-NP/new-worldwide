@@ -10,10 +10,11 @@ const Rightblock = styled.div`
 `;
 
 const SvgBlock = ({ svg }) => {
-    const SvgIcon = require(`../../assets/${svg}`).default;
+    const Svgicon = require(`../../assets/${svg}`).default;
     return (
         <Rightblock>
-            <img src={SvgIcon} alt="Service" />
+            <img 
+            src={Svgicon} alt="service" />
         </Rightblock>
     );
 };
